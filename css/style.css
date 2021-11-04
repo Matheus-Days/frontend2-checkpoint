@@ -108,7 +108,7 @@ main {
   top: 15vh;
   left: 384px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   padding: 4rem 0 0 4rem;
   width: calc(100vh - 384px);
