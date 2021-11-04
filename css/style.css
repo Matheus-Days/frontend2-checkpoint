@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  font-family: "Noto Sans";
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 15vh;
+  width: 100vw;
+  background-color: #222;
+  align-items: center;
+  padding: 0 2vw;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  z-index: 20;
+}
+
+h1 {
+  font-size: 3rem;
+  cursor: default;
+}
+
+.eastern-logo {
+  filter: drop-shadow(0 0.5rem 8px #111111);
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.blue-logo {
+  color: #4242ff;
+}
+
+.yellow-logo {
+  color: #e9e500;
+}
+
+.red-logo {
+  color: #da1919;
+}
+
+.western-logo {
+  color: #ededed;
+  font-size: 2rem;
+}
+
+aside {
+  background-color: #333;
+  position: fixed;
+  top: 15vh;
+  height: 85vh;
+  box-shadow: 6px 0 8px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  color: #ededed;
+}
+
+.input-control {
+  margin-top: 1.5rem;
+}
+
+label {
+  display: inline-block;
+  border-radius: 2rem;
+  padding: 0.75rem 0.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 1.25rem;
+  margin-bottom: -0.5rem;
+}
+
+input {
+  display: block;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+  padding: 0.5rem 0.75rem;
+  z-index: 10;
+  position: relative;
+}
+
+.form-btn {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-btn button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  border: 2px solid #ddd;
+  transition: filter 0.2s;
+}
+
+.form-btn button:active {
+  filter: brightness(0.8);
+}
+
+main {
+  position: relative;
+  top: 15vh;
+  left: 384px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 4rem 0 0 4rem;
+  width: calc(100vh - 384px);
+}
+
+.card {
+  background-color: #ededed;
+  border-radius: 1rem;
+  padding: 0.5rem 0.75rem;
+  width: 24rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 32px rgba(0, 0, 0, 0.7);
+}
+
+.img-place {
+  border-radius: 1rem 1rem 0 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.img-place img {
+  height: 18rem;
+}
+
+.card h3 {
+  font: 1.5rem;
+}
+
+.card p {
+  font-size: 1.125rem;
+}
