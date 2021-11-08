@@ -22,12 +22,12 @@ header {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 48px;
   cursor: default;
 }
 
 .eastern-logo {
-  filter: drop-shadow(0 0.5rem 8px #111111);
+  filter: drop-shadow(0 8px 8px #111111);
   font-family: "Noto Sans JP", sans-serif;
 }
 
@@ -45,7 +45,7 @@ h1 {
 
 .western-logo {
   color: #ededed;
-  font-size: 2rem;
+  font-size: 32px;
 }
 
 aside {
@@ -60,91 +60,91 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 0 2rem 0;
+  padding: 16px 0 32px 0;
   color: #ededed;
 }
 
 .input-control {
-  margin-top: 1.5rem;
+  margin-top: 24px;
 }
 
 .input-control label {
   display: inline-block;
-  border-radius: 2rem;
-  padding: 0.75rem 0.5rem;
+  border-radius: 32px;
+  padding: 12px 8px;
   background-color: rgba(0, 0, 0, 0.3);
-  font-size: 1.25rem;
-  margin-bottom: -0.5rem;
+  font-size: 20px;
+  margin-bottom: -8px;
 }
 
 .input-control input {
   display: block;
-  font-size: 1.5rem;
-  border-radius: 1.5rem;
-  padding: 0.5rem 0.75rem;
+  font-size: 24px;
+  border-radius: 24px;
+  padding: 8px 12px;
   z-index: 10;
   position: relative;
 }
 
 .origem {
   border: none;
-  margin-top: 1.5rem;
+  margin-top: 24px;
 }
 
 .origem legend {
-  font-size: 1.25rem;
-  border-radius: 2rem;
-  padding: 0.75rem 0.5rem;
+  font-size: 20px;
+  border-radius: 32px;
+  padding: 12px 8px;
   background-color: rgba(0, 0, 0, 0.3);
-  margin-left: -1rem;
+  margin-left: -16px;
   text-align: center;
 }
 
 .radios {
   display: flex;
   align-items: center;
-  margin: 0.5rem 0 0 -1rem;
+  margin: 8px 0 0 16px;
 }
 
 .radios label {
-  font-size: 1rem;
-  margin-right: 0.5rem;
+  font-size: 16px;
+  margin-right: 8px;
 }
 
 .radios input {
-  height: 1.25rem;
-  width: 1.25rem;
-  margin-top: -0.1rem;
+  height: 20px;
+  width: 20px;
+  margin-top: -2px;
 }
 
 hr {
   width: 80%;
   color: #ededed;
-  margin-top: 0.75rem;
+  margin-top: 12px;
 }
 
 .assistiu label {
-  font-size: 1.25rem;
+  font-size: 20px;
 }
 
 .assistiu input {
-  height: 1.25rem;
-  width: 1.25rem;
+  height: 20px;
+  width: 20px;
 }
 
 .form-btn {
-  margin-top: 2rem;
+  margin-top: 32px;
   display: flex;
   justify-content: space-around;
 }
 
 .form-btn button {
-  padding: 1rem 2rem;
-  font-size: 1.5rem;
-  border-radius: 2rem;
+  padding: 16px 32px;
+  font-size: 24px;
+  border-radius: 32px;
   border: 2px solid #ddd;
   transition: filter 0.2s;
-  margin: 0 0.5rem;
+  margin: 0 8px;
 }
 
 .form-btn button:active {
@@ -156,9 +156,9 @@ main {
   grid-row: 2;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 2rem;
-  padding: 2rem 0 0 2rem;
-  width: calc(100% - 2rem);
+  row-gap: 32px;
+  padding: 32px 0 0 32px;
+  width: calc(100% - 32px);
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -187,10 +187,10 @@ main::-webkit-scrollbar-thumb:hover {
 
 .card {
   background-color: #ededed;
-  border-radius: 1rem;
-  padding: 0.5rem 0.75rem;
-  width: 22rem;
-  height: 30rem;
+  border-radius: 16px;
+  padding: 8px 12px;
+  width: 352px;
+  height: 480px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -198,7 +198,7 @@ main::-webkit-scrollbar-thumb:hover {
 }
 
 .img-place {
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 16px 16px 0 0;
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -206,27 +206,27 @@ main::-webkit-scrollbar-thumb:hover {
 
 .watched-icon {
   position: absolute;
-  height: 2.5rem;
-  width: 2.5rem;
-  top: 0.5rem;
-  left: 0.5rem;
+  height: 40px;
+  width: 40px;
+  top: 8px;
+  left: 8px;
   color: #e9e500;
 }
 
 .img-place img {
-  height: 18rem;
+  height: 288px;
 }
 
 .card h3 {
-  font: 1.5rem;
+  font: 24px;
   text-align: center;
 }
 
 .card span {
   display: block;
-  font-size: 0.8rem;
+  font-size: 12px;
 }
 
 .card p {
-  font-size: 1.125rem;
+  font-size: 20px;
 }
