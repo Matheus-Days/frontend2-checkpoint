@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Isekai Hakken | 異世界発見</title>
   </head>
   <body>
@@ -32,6 +33,22 @@
           <label for="imgUrl">Url da imagem</label>
           <input type="text" name="imgUrl" />
         </div>
+        <fieldset class="origem">
+          <legend>Material de origem</legend>
+          <div class="radios">
+            <input type="radio" name="origem" id="original" value="original" />
+            <label for="original">Original</label>
+            <input type="radio" name="origem" id="ln" value="ln" />
+            <label for="ln">Light Novel</label>
+            <input type="radio" name="origem" id="manga" value="manga" />
+            <label for="manga">Mangá</label>
+          </div>
+        </fieldset>
+        <hr />
+        <div class="assistiu">
+          <input type="checkbox" name="assistiu" id="assistiu" />
+          <label for="assistiu">Já assisti por completo.</label>
+        </div>
         <div class="form-btn">
           <button type="submit">Criar</button>
           <button type="reset">Limpar</button>
@@ -41,12 +58,14 @@
     <main>
       <div class="card">
         <div class="img-place">
+          <i class="watched-icon" data-feather="check-square"></i>
           <img
             src="https://painel.portalamazonia.com/uploads/RTEmagicC_2929_01.jpg.jpg"
             alt=""
           />
         </div>
         <h3>Re:Zero Kara Hajimeru Isekai Seikatsu</h3>
+        <span>Material de origem: Light Novel</span>
         <p>
           A história se centra em Subaru Natsuki, um hikikomori que de repente
           se vê transportado para outro mundo enquanto voltava para casa após

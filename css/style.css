@@ -59,7 +59,7 @@ aside {
 form {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 1rem 2rem 2rem 2rem;
   color: #ededed;
 }
 
@@ -67,7 +67,7 @@ form {
   margin-top: 1.5rem;
 }
 
-label {
+.input-control label {
   display: inline-block;
   border-radius: 2rem;
   padding: 0.75rem 0.5rem;
@@ -76,13 +76,59 @@ label {
   margin-bottom: -0.5rem;
 }
 
-input {
+.input-control input {
   display: block;
   font-size: 1.5rem;
   border-radius: 1.5rem;
   padding: 0.5rem 0.75rem;
   z-index: 10;
   position: relative;
+}
+
+.origem {
+  border: none;
+  margin-top: 1.5rem;
+}
+
+.origem legend {
+  font-size: 1.25rem;
+  border-radius: 2rem;
+  padding: 0.75rem 0.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-left: -1rem;
+  text-align: center;
+}
+
+.radios {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0 0 -1rem;
+}
+
+.radios label {
+  font-size: 1.125rem;
+  margin-right: 0.5rem;
+}
+
+.radios input {
+  height: 1.25rem;
+  width: 1.25rem;
+  margin-top: -0.1rem;
+}
+
+hr {
+  width: 80%;
+  color: #ededed;
+  margin-top: 0.75rem;
+}
+
+.assistiu label {
+  font-size: 1.25rem;
+}
+
+.assistiu input {
+  height: 1.25rem;
+  width: 1.25rem;
 }
 
 .form-btn {
@@ -130,6 +176,16 @@ main {
   border-radius: 1rem 1rem 0 0;
   overflow: hidden;
   width: 100%;
+  position: relative;
+}
+
+.watched-icon {
+  position: absolute;
+  height: 2.5rem;
+  width: 2.5rem;
+  top: 0.5rem;
+  left: 0.5rem;
+  color: #e9e500;
 }
 
 .img-place img {
@@ -138,6 +194,11 @@ main {
 
 .card h3 {
   font: 1.5rem;
+}
+
+.card span {
+  display: block;
+  font-size: 0.8rem;
 }
 
 .card p {
